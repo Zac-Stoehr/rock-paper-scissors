@@ -1,0 +1,8 @@
+// have the computer select randomly
+// have the player make a selection
+// compare the two selections
+// paper > rock
+// rock > scissors
+// scossors > paper
+// assign a point to the round winner
+// first to 5 points wins
