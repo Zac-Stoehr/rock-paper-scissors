@@ -14,8 +14,8 @@ function getComputerChoice() {
     } 
 } //console.log(getComputerChoice());
 function playRound(playerSelection, computerSelection) {
-    if (playerSelection === "rock" && computerSelection === "rock") {
-        return("You tied!");
+    if (playerSelection === computerSelection) {
+        return(`You tied! You both picked ${playerSelection}`);
     } else if (playerSelection === "rock" && computerSelection === "paper") {
         computerScore++;
         return("You lost! Paper covers Rock!");
